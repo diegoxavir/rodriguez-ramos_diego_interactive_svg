@@ -1,0 +1,12 @@
+#grapefruitsvg {
+    height: 200px;
+}
+
+#grapefruitsvg:hover #stripes {
+    transition: 0.5s ease;
+    transform-origin: center;
+}
+
+#grapefruitsvg:hover #stripes {
+    transform: rotate(360deg);
+}
