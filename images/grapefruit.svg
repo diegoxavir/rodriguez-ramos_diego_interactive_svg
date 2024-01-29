@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403 335">
+<svg id="grapefruitsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403 335">
   <defs>
     <style>
       .cls-1 {
@@ -10,6 +10,11 @@
       .cls-1, .cls-2, .cls-3 {
         stroke-miterlimit: 10;
         stroke-width: 5px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke-width: 0px;
       }
 
       .cls-2 {
@@ -28,6 +33,28 @@
   <g id="fruit">
     <path id="yellow" class="cls-3" d="m354.36,5.32L70.86,232.32S413.86,349.32,354.36,5.32Z"/>
     <path id="pink" class="cls-2" d="m70.86,232.32S338.86,328.32,354.36,5.32"/>
+  </g>
+  <g id="stripes">
+    <g>
+      <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m318.31,61.6c-8.73,6.19-18.04,11.32-27.52,16.18-9.53,4.78-19.17,9.25-29.33,12.61,8.72-6.2,18.03-11.32,27.52-16.18,9.53-4.77,19.17-9.24,29.33-12.61h0Z"/>
+      </g>
+      <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m327.51,121.09c-10.59,1.56-21.21,1.89-31.87,1.92-10.66-.07-21.28-.46-31.86-2.08,10.58-1.56,21.21-1.9,31.87-1.92,10.66.08,21.28.47,31.86,2.08h0Z"/>
+      </g>
+      <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m308.69,178.28c-10.14-3.42-19.76-7.94-29.27-12.76-9.46-4.9-18.75-10.07-27.44-16.32,10.14,3.41,19.76,7.93,29.27,12.76,9.46,4.91,18.75,10.08,27.44,16.32h0Z"/>
+      </g>
+      <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m265.96,220.69c-7.48-7.65-14-16.05-20.28-24.65-6.21-8.66-12.13-17.49-17.04-27,7.49,7.64,14,16.04,20.28,24.65,6.2,8.67,12.13,17.49,17.04,27h0Z"/>
+      </g>
+      <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m208.64,239.08c-3.19-10.21-5.19-20.65-6.88-31.18-1.6-10.54-2.87-21.09-2.93-31.79,3.2,10.21,5.2,20.65,6.88,31.18,1.59,10.54,2.86,21.09,2.93,31.79h0Z"/>
+      </g>
+      <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+        <path class="cls-4" d="m149.21,229.44c1.79-10.55,4.75-20.76,8.02-30.9,3.36-10.11,7.02-20.1,11.82-29.66-1.78,10.55-4.75,20.76-8.02,30.9-3.37,10.11-7.02,20.09-11.82,29.66h0Z"/>
+      </g>
+    </g>
   </g>
   <g id="text-layer">
     <g id="text">

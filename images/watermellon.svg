@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 357">
+<svg id="watermellonsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 357">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
@@ -13,6 +13,23 @@
       .cls-3 {
         fill: #ff9fff;
       }
+
+      #skin, #watermellon, #text-layer {
+        transition: ease 1s
+      }
+
+      #watermellonsvg:hover #skin {
+        fill: green;
+      }
+
+      #watermellonsvg:hover #watermellon {
+        fill:red;
+      }
+
+      #watermellonsvg:hover #text-layer {
+      transform: rotate(360deg);
+      }
+
     </style>
   </defs>
   <g id="fruit">

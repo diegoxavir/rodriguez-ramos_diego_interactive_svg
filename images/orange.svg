@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 366">
+<svg id="orangesvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 366">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
@@ -26,6 +26,29 @@
       .cls-5 {
         fill: #fbb03b;
       }
+
+      #orange-vain {
+        transition: 0.5s ease;
+        transform-origin: center;
+      }
+
+      #orangesvg:hover #orange-base {
+        fill: orange;
+      }
+
+      #orangesvg:hover #orange-vain {
+        transform: rotate(360deg);
+      }
+
+      #text {
+        transition: 0.5s ease;
+      }
+
+      #orangesvg:hover #text {
+        transform: scale(120%);
+      }
+
+
     </style>
   </defs>
   <g id="orangebase">
