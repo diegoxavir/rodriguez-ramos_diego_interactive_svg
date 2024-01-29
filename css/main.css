@@ -2,6 +2,30 @@
     display: none;
 }
 
+article {
+    text-align: center;
+}
+
+#yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+#pink {
+    color: pink;
+}
+
+#purple {
+    color: purple;
+}
+
+#green {
+    color: green;
+}
+
 #grapefruitsvg:hover #stripes {
     transition: 0.5s ease;
     transform-origin: center;

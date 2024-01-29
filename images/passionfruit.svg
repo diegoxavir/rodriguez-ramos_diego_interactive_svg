@@ -35,6 +35,18 @@
           transform-origin: center
       }
     </style>
+
+    <script>const vectorGraphic = document.querySelector('#passionfruitsvg');
+
+      function logThisId(){
+        console.log(this);
+        console.log('WOAHH DID YOU SEE IT DO THE THING', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
+
+
   </defs>
   <g id="passionfruit">
     <line id="stem" class="cls-1" x1="172.27" y1="43.94" x2="143.27" y2="9.94"/>

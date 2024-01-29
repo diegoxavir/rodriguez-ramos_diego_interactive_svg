@@ -50,6 +50,17 @@
 
 
     </style>
+
+    <script>const vectorGraphic = document.querySelector('#orangesvg');
+
+      function logThisId(){
+        console.log(this);
+        console.log('Okay this is ACTUALY the best flavor I cant lie', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
+
   </defs>
   <g id="orangebase">
     <circle id="orange-base" class="cls-3" cx="177.23" cy="163.31" r="150.5"/>

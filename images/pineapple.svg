@@ -36,6 +36,16 @@
       }
 
     </style>
+
+    <script>const vectorGraphic = document.querySelector('#pineapplesvg');
+
+      function logThisId(){
+        console.log(this);
+        console.log('AHHHH. Sorry it got so close. Pineapple is a pretty good flavour', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <g id="leaves">
     <path id="leave-1" class="cls-3" d="m213.52,164S130.02-25,35.02,13c0,0,141.95,105.94,62.48,179.47"/>
