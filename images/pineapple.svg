@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359 597">
+<svg id="pineapplesvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359 597">
   <defs>
     <style>
       .cls-1 {
@@ -26,6 +26,15 @@
       .cls-3 {
         fill: #a6ff9c;
       }
+
+      #pineapplesvg:hover {
+        transition: ease-in-out 0.5s
+      }
+
+      #pineapplesvg:hover {
+        transform: scale(200%) rotate(360deg);
+      }
+
     </style>
   </defs>
   <g id="leaves">

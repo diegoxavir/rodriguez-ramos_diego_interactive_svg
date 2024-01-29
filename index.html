@@ -7,14 +7,21 @@
         <link href="css/main.css" rel="stylesheet">        
     </head>
     <body>
-        <h1>Project Template</h1>
+        <h1 class="hidden">FRUITS</h1>
+        <article>
+          <h2>Welcomm to fruits!</h2>
+          <p>Here we have 6 fruits, Banana, Orange, Grapefruit, Passionfruit, Pineapple, and Watermellon!
+            These six SVGs were made to visualize 6 drinks flavours! 
+          </p>
+        </article>
         <!-- link just above the closing body tag
         this allows for the entire DOM tree to be built -->
         <div>
-        <object data="images/banana.svg" type="image/svg+xml"></object>
-    </div>
-       
-    <svg id="grapefruitsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403 335">
+        <object class="fruitsvgs" data="images/banana.svg" type="image/svg+xml"></object>
+        
+          <object class="fruitsvgs" data="images/orange.svg" type="image/svg+xml"></object>
+        
+        <svg class="fruitsvgs" id="grapefruitsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403 335">
         <defs>
           <style>
             .cls-1 {
@@ -87,13 +94,12 @@
             </g>
           </g>
         </g>
-      </svg>
+        </svg>
        
-        <object data="images/orange.svg" type="image/svg+xml"></object>
-        <object data="images/passionfruit.svg" type="image/svg+xml"></object>
-        <object data="images/pineapple.svg" type="image/svg+xml"></object>
-        <object data="images/watermellon.svg" type="image/svg+xml"></object>
-        
+        <object class="fruitsvgs" data="images/passionfruit.svg" type="image/svg+xml"></object>
+        <object class="fruitsvgs" data="images/pineapple.svg" type="image/svg+xml"></object>
+        <object class="fruitsvgs" data="images/watermellon.svg" type="image/svg+xml"></object>
+      </div>
         <script src="js/main.js"></script> 
     </body>
 </html>

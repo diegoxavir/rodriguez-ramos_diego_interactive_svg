@@ -1,5 +1,5 @@
-#grapefruitsvg {
-    height: 200px;
+.hidden {
+    display: none;
 }
 
 #grapefruitsvg:hover #stripes {
@@ -9,4 +9,9 @@
 
 #grapefruitsvg:hover #stripes {
     transform: rotate(360deg);
+}
+
+.fruitsvgs {
+    width: 500px;
+    height: 500px;
 }

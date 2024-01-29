@@ -17,16 +17,28 @@
         fill: brown;
       }
 
-#text-layer {
-    transition: all 0.5s ease;
-    transform-origin: center;
-}
+      #text-layer {
+          transition: all 0.5s ease;
+          transform-origin: center;
+      }
 
-#bananasvg:hover #text-layer {
-    fill: black;
-    transform: rotate(360deg);
-}
+      #bananasvg:hover #text-layer {
+          fill: black;
+          transform: rotate(360deg);
+      }
     </style>
+
+    <script>const vectorGraphic = document.querySelector('#bananasvg');
+
+      function logThisId(){
+        console.log(this);
+        console.log('BANANA WOAH THE BEST FLAVOUR???? PROBABLY', this.id)
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
+
+    
   </defs>
   <g id="fruit">
     <path id="banana" class="cls-2" d="m2.48,37.48s.07.1.1.16c0,0,11.04,32.36,13.29,35.48,170.81,237.75,386.61-19.64,386.61-19.64l4.5-26,19.5-11-11-15-25.5,20-17.5-2C173.14,226,13.48,25.82,13.48,25.82l-11,11.66Z"/>

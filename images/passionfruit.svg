@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 397">
+<svg id="passionfruitsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 397">
   <defs>
     <style>
       .cls-1 {
@@ -24,6 +24,15 @@
       .cls-3 {
         fill: #8c2f5b;
         stroke: #8c2f5b;
+      }
+
+      #passionfruit {
+        transition: ease 0.5s;
+      }
+
+      #passionfruitsvg:hover #passionfruit {
+          transform: scale(30%);
+          transform-origin: center
       }
     </style>
   </defs>
