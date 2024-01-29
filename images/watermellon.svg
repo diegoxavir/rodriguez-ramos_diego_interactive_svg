@@ -31,6 +31,16 @@
       }
 
     </style>
+
+    <script>const vectorGraphic = document.querySelector('#watermellonsvg');
+
+      function logThisId(){
+        console.log(this);
+        console.log('Voted Canadas number 5 best flavour by ME- the watermellon', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <g id="fruit">
     <path id="watermellon" class="cls-3" d="m325.58,230.11c-147.17,106-286.83,0-286.83,0L187.75,1.28"/>
